@@ -14,4 +14,9 @@ $ git clone https://github.com/tomasr/molokai.git
 $ mkdir ~/.vim/
 $ mv colors ~/.vim/
 
+## bash setup
+$ mv bashrc ~/.bashrc
+$ source ~/.bashrc
 
+Special Thanks
+Logan, Tock and molokai's color scheme.
