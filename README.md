@@ -1,22 +1,28 @@
 # myTmuxSetup
 
 ## tmux setup
-$ mv tmuxconfig ~/.tmux.conf
-version >= 2.0
-use Bind-key + :
-and type source ~/.tmux.conf
+##### for version >= 2.0
+###### $ mv tmuxconfig ~/.tmux.conf
+###### $ use Bind-key + :
+###### $ and type source ~/.tmux.conf
 
 ## vim setup
-$ mv vimrc ~/.vimrc
+
+### create .vim/ folder if it's not existed.
+###### $ mkdir ~/.vim/
 
 ### for color scheme
-$ git clone https://github.com/tomasr/molokai.git
-$ mkdir ~/.vim/
-$ mv colors ~/.vim/
+$ git clone https://github.com/tomasr/molokai.git ~/.vim/
+
+### install Vundle 
+###### $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+### copy or move the vimrc
+###### $ mv vimrc ~/.vimrc
 
 ## bash setup
-$ mv bashrc ~/.bashrc
-$ source ~/.bashrc
+###### $ mv bashrc ~/.bashrc
+###### $ source ~/.bashrc
 
 Special Thanks
 Logan, Tock and molokai's color scheme.
